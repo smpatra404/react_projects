@@ -1,0 +1,77 @@
+/* Header styling */
+header {
+  padding: 20px;
+  background-color: rgb(53, 27, 80);
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+  gap: 5px;
+}
+.search > input {
+  border-radius: 5px;
+  font-size: 1rem;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.search > button {
+  border-radius: 50%;
+  padding: 3px;
+  outline: none;
+  transition: 0.2s all linear;
+}
+.search > button:hover {
+  background-color: grey;
+}
+.search > button:active {
+  background-color: black;
+}
+
+article {
+  width: 40vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 92vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.card {
+  display: flex;
+  background-color: rgb(63, 31, 94);
+  border-radius: 10px;
+}
+.card img {
+  object-fit: cover;
+  max-width: 105px;
+  max-height: 100%;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.card > section {
+  padding: 10px;
+}
+section > p {
+  padding-top: 10px;
+  height: 70px;
+  overflow-y: auto;
+}
+.readmore {
+  border: none;
+  outline: none;
+  background-color: rgb(63, 31, 94);
+  color: red;
+  font-weight: bold;
+}
+.close-btn {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
